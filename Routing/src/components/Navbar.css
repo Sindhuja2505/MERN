@@ -1,0 +1,24 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000;
+  }
+  
+  .element {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 4rem; /* Push page content below navbar */
+  }
+  
